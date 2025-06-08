@@ -11,7 +11,6 @@ export default function ArchitecturePage() {
     {
       name: "Persepolis",
       location: "Fars Province, Iran",
-      built: "518-465 BCE",
       builder: "Darius I & Xerxes I",
       description: "The ceremonial capital of the Achaemenid Empire, showcasing the pinnacle of Persian architecture",
       features: [
@@ -29,7 +28,6 @@ export default function ArchitecturePage() {
     {
       name: "Pasargadae",
       location: "Fars Province, Iran",
-      built: "546 BCE",
       builder: "Cyrus the Great",
       description: "First dynastic capital of the Achaemenid Empire and burial place of Cyrus the Great",
       features: [
@@ -47,7 +45,6 @@ export default function ArchitecturePage() {
     {
       name: "Susa Palace",
       location: "Khuzestan Province, Iran",
-      built: "521-486 BCE",
       builder: "Darius I",
       description: "Administrative capital and winter residence of Persian kings",
       features: [
@@ -65,7 +62,6 @@ export default function ArchitecturePage() {
     {
       name: "Ecbatana",
       location: "Hamadan, Iran",
-      built: "8th century BCE (expanded by Persians)",
       builder: "Medes (expanded by Cyrus & Darius)",
       description: "Summer capital of the Persian Empire, former Median capital",
       features: [
@@ -148,11 +144,7 @@ export default function ArchitecturePage() {
                         <MapPin className="h-3 w-3 mr-1" />
                         {monument.location}
                       </Badge>
-                      <br />
-                      <Badge className="bg-blue-600 text-white">
-                        <Calendar className="h-3 w-3 mr-1" />
-                        {monument.built}
-                      </Badge>
+
                     </div>
                   </div>
 
