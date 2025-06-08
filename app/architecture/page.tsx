@@ -87,7 +87,7 @@ export default function ArchitecturePage() {
       title: "Column Capitals",
       description: "Distinctive double-animal capitals featuring bulls, lions, and eagles",
       image:
-        "/gallery/susa-palace.jpg",
+        "/gallery/polumn-capitals.jpg",
     },
     {
       title: "Relief Sculptures",
@@ -213,7 +213,7 @@ export default function ArchitecturePage() {
                     alt={feature.title}
                     width={400}
                     height={300}
-                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
