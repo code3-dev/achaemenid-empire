@@ -81,7 +81,7 @@ export default function GalleryPage() {
           description: "Private palace of Darius I showcasing Persian architectural elegance",
         },
         {
-          src: "/gallery/susa-palace.jpg",
+          src: "/gallery/polumn-capitals.jpg",
           title: "Persian Column Capital",
           description: "Distinctive double-bull capitals that crowned Persian columns",
         },
